@@ -1,0 +1,4 @@
+GET https://improved-trout-979wq766gwrrf7rq-3000.app.github.dev/api/tarefas
+
+###
+POST https://improved-trout-979wq766gwrrf7rq-3000.app.github.dev/api/tarefas
