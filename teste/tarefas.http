@@ -1,4 +1,15 @@
-GET https://improved-trout-979wq766gwrrf7rq-3000.app.github.dev/api/tarefas
+@url = https://improved-trout-979wq766gwrrf7rq-3000.app.github.dev/api/tarefas
+
+GET {{url}}
 
 ###
-POST https://improved-trout-979wq766gwrrf7rq-3000.app.github.dev/api/tarefas
+POST {{url}}
+Content-Type: application/json
+
+{
+    "id" : 10,
+    "title" : "Executar Aplicação"
+}
+
+###
+GET {{url}}/2
